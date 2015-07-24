@@ -18,9 +18,16 @@ class ViewController: UIViewController {
         
         var enteredAge = ageField.text.toInt()
         
+        if enteredAge != nil {
+        
         var catYears = enteredAge! * 7
         
-        println(catYears)
+            resultField.text = "Your cat is \(catYears) years old"
+            
+        } else {
+            
+            resultField.text = "Please, first enter age"
+        }
         
     }
     
