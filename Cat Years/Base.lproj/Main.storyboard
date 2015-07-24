@@ -45,6 +45,9 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Gato.png" translatesAutoresizingMaskIntoConstraints="NO" id="UpH-Nr-cCM">
+                                <rect key="frame" x="21" y="499" width="81" height="81"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -53,4 +56,7 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="Gato.png" width="77" height="85"/>
+    </resources>
 </document>
