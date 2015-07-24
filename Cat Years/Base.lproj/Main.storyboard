@@ -26,6 +26,9 @@
                                 <rect key="frame" x="112" y="145" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="calculateAgeButton:" destination="vXZ-lx-hvc" eventType="editingDidEnd" id="y7H-J2-fZc"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter your cat's age in years." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eJQ-le-5nc">
                                 <rect key="frame" x="49" y="87" width="223" height="21"/>
@@ -38,6 +41,9 @@
                                 <state key="normal" title="Calculate age">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculateAgeButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ghO-nv-Pi2"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IvN-0m-Kbv">
                                 <rect key="frame" x="21" y="363" width="279" height="21"/>
@@ -51,6 +57,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="ageField" destination="93J-ZN-ZQL" id="NH2-qT-TXK"/>
+                        <outlet property="resultField" destination="IvN-0m-Kbv" id="Xqi-fj-mqY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
