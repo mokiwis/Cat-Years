@@ -26,7 +26,7 @@ class ViewController: UIViewController {
             
         } else {
             
-            resultField.text = "Please, first enter age"
+            resultField.text = "Please, first enter your cat's age."
         }
         
     }
