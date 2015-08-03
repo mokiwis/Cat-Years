@@ -3,7 +3,7 @@
 //  Cat Years
 //
 //  Created by Moisés Cervantes on 24/07/15.
-//  Copyright (c) 2015 moises. All rights reserved.
+//  Copyright (c) 2015 Moisés Cervantes. All rights reserved.
 //
 
 import UIKit
